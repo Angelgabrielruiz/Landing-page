@@ -12,7 +12,7 @@ header {
 }
 
 .logo {
-    width: 150px;
+    width: 300px;
 }
 
 main {
@@ -44,16 +44,25 @@ main {
     border: 2px solid #484444;
 }
 
-.description {
+#multi {
+    display: flex;
     margin-bottom: 20px;
     font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+#multiplataforma{
+    width: 20%;
+    margin: 70px;
 }
 
 .biomes {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 20px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
 }
 
 .biomes img {
@@ -63,9 +72,9 @@ main {
 }
 
 .biomes p {
-    width: 80%;
-    font-size: 16px;
-    line-height: 1.5;
+    width: 20%;
+    margin: 70px;
+    font-size: 20px;
 }
 
 footer {
